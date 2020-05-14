@@ -59,7 +59,7 @@ class MainWindow(QtWidgets.QMainWindow):
     ):
         if output is not None:
             logger.warning(
-                'argument output is deprecated, use output_file instead'
+                'argument output is deprecated, use output_file instead!!!'
             )
             if output_file is None:
                 output_file = output
